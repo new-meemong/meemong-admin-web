@@ -1,20 +1,21 @@
-import AdminLayout from "@/components/AdminLayout";
-import Theme from "@/components/Theme";
+import { Button, DatePicker, Input, Modal, Switch } from "antd";
 import {
   CenteredPaginationTable,
   Text,
   Wrapper,
 } from "@/components/commomComponents";
-import useInput from "@/hooks/useInput";
 import {
   DeleteOutlined,
   EditOutlined,
   ExclamationCircleFilled,
 } from "@ant-design/icons";
-import { Button, DatePicker, Input, Modal, Switch } from "antd";
-import dayjs from "dayjs";
 import { useCallback, useEffect, useState } from "react";
+
+import AdminLayout from "@/components/AdminLayout";
+import Theme from "@/components/Theme";
+import dayjs from "dayjs";
 import styled from "styled-components";
+import useInput from "@/hooks/useInput";
 
 const { RangePicker } = DatePicker;
 
